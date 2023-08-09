@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                font-family: Arial;
+                color: gray;
+            }
+            .download{
+                font-family: Arial;
+                font-size: 20px;
+                border-style: solid;
+                border-width: 2.5px;
+                border-color:white;
+                 border-radius: 4px;
+                background-color:rgb(141, 84, 195);
+                color:white;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .download:hover{
+                background-color:white;
+                color:rgb(141, 84, 195);
+                border-color:rgb(141, 84, 195);
+                cursor: pointer;
+            }
+            .Searchbar{
+                font-family: Arial;
+                font-size: 15px;
+                border:none;
+                border-radius: 20px;
+                background-color: white ;
+                color: gray;
+                width:480px;
+                height: 30px;
+                padding-left: 10px;
+            }
+            .text{
+                color: white;
+                font-family: Arial;
+                font-size: 20px;
+            }
+            .left{
+                width: 70px;
+                margin-left: 15px;
+            }
+            .middle{
+                max-width: 500px;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            .right{
+                width: 120px;
+            }
+            .search-preview{
+                height:55px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color:rgb(141, 84, 195);
+                align-items: center;
+                border-radius: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="search-preview">
+
+            <div class="left">
+            <p class="text">Home</p>
+            </div>
+            <div class="middle"> 
+            <input class="Searchbar" type="text" placeholder="Search">
+            </div>
+            <div class="right">
+            <button class="download">Download</button>
+            </div>
+
+        </div>
+    </body>
+</html>
